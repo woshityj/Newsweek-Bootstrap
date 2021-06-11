@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin: 0!important;
+    max-width: 100%!important;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* Global Container CSS */
+  .container {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    max-width: none!important;
+  }
+
+  /* Header Container CSS */
+  .header-container {
+    display: none;
+  }
+
+  .mobile-header-container {
+    display: block;
+  }
+
+  .mobile-header {
+    padding: 5px 15px 5px 15px;
+  }
+
+  .mobile-header-container {
+    background-color: red;
+  }
+
+  .mobile-header-image-container {
+    width: 132px;
+    height: 20px;
+  }
+
+  .mobile-header-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .fa-user {
+    display: none!important;
+  }
+
+  .login-button {
+    padding:0!important;
+    font-size: 18px!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    margin-top: 4px!important;
+    margin-bottom: 4px!important;
+  }
+
+  .btn-warning {
+    padding: 0!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    margin-right: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .fa-bars {
+    font-size: 26px;
+    color: rgba(255,255,255,.55);
+  }
+
+  /* Navbar Container CSS */
+  .navbar-container {
+    display: none;
+  }
+
+  /* Main Content Container CSS */
+
+  .main-content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    padding-top: 20px!important;
+  }
+  
+  /* Left Content Container CSS */
+
+  .left-content-container {
+    width: 100%;
+  }
+
+  /* Column 1 Container CSS */
+
+  .column-1 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  /* Column 2 Container CSS */
+  
+  .column-2 {
+    padding-right: 0px!important;
+  }
+
+  /* Right Content Container CSS */
+
+  .right-content-container {
+    width: 100%;
+  }
+
+  /* Column 3 Container CSS */
+
+  .column-3 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+
+  /* In The Magazine Container CSS */
+
+  .in-the-magazine-container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .in-the-magazine-content-row {
+    row-gap: 20px;
+  }
+
+  
+  /* Editors Pick Container CSS */
+
+
+  /* Section Picks Container CSS */
+
+  .section-picks-container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  /* Subscribe Container CSS */
+
+  .subscribe-container {
+    padding: 40px 15px 0;
+  }
+
+  .subscribe-right-text-container {
+    text-align: center;
+  }
+
+  .footer-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .top-footer-container {
+    flex-direction: column;
+    align-items: flex-start!important;
+    justify-content: flex-start!important;
+  }
+
+  .left-footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-footer-container {
+    justify-self: flex-start!important;
+    align-self: flex-start;
+  }
+
+  .bottom-footer-top {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  /* Header Container CSS */
+
+  .fa-user {
+    font-size: 18px;
+    color: white;
+    opacity: 0.7;
+    margin-right: 10px;
+    display: block!important;
+  }
+
+  .login-button {
+    display: none!important;
+  }
+
+  .btn-warning {
+    font-size: 13px!important;
+    line-height: 24px!important;
+  }
+
+  .fa-bars {
+    font-size: 18px;
+  }
+
+  /* Main Content Container CSS */
+
+  .left-content-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  /* Column 1 Container CSS */
+
+  .column-1 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    width: 100%;
+  }
+
+  /* Column 2 Container CSS */
+
+  .column-2 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    width: 100%;
+  }
+
+  .culture-container {
+    flex-direction: column;
+  }
+
+  .culture-item-container {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+
+  .culture-image {
+    width: 100%;
+  }
+
+  /* Right Content Container CSS */
+
+  .right-content-container {
+    width: 100%;
+  }
+
+  /* Column 3 Container CSS */
+
+  .column-3 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  .bordered-story {
+    max-width: 100%;
+  }
+
+  /* In The Magazine Container CSS */
+
+  .magazine-image-wrapper {
+    max-height: 263px;
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .in-the-magazine-image-2 {
+    transform: translate(-30%, -10%);
+  }
+
+  .magazine-head {
+    font-size: 16px;
+  }
+
+  /* Editors Pick Container CSS  */
+
+  .editors-pick {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+  /* Subscribe Container CSS */
+
+  .subscribe-left-content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .subscribe-left-text-container {
+    padding-left: 0!important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .fa-user {
+    margin-right: 0;
+  }
+
+  .btn-warning {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
